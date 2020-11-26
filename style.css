@@ -1,0 +1,20 @@
+body {
+    background-image : "#";
+}
+
+#title {
+    color : #000ff0;
+    position : absolute;
+    margin : 0px;
+    padding : 0px;
+    border : 0px;
+}
+
+#play {
+    color : #ff00ff;
+    position : absolute;
+    margin : 0px;
+    padding : 0px;
+    width : 10%;
+    height : 5%;
+}
