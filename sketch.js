@@ -11,3 +11,9 @@ play.onclick = function () {
 }
 play.style['left'] = window.innerWidth/2 - window.getComputedStyle(play)['width'].slice(0, window.getComputedStyle(play)['width'].length - 2)/2 + "px";
 play.style['top'] = window.innerWidth/4 - window.getComputedStyle(play)['height'].slice(0, window.getComputedStyle(play)['height'].length - 2)/2 + "px";
+play.onmouseover = function () {
+    play.style['boxShadow'] = window.innerWidth/30 + "px " + window.innerHeight/60 + "px " + "10px #000ff0";
+};
+play.onmouseout = function () {
+    play.style['boxShadow'] = "0px 0px";
+};
