@@ -13,10 +13,10 @@ body {
     position : absolute;
 }
 
-#play {
+button.home {
     color : #ff00ff;
-    width : 10%;
-    height : 5%;
+    width : 20%;
+    height : 7.5%;
     border-radius : 50%;
     position : absolute;
 }
