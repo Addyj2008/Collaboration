@@ -60,4 +60,9 @@ settings.onclick = function () {
     }
 };
 
-const HOME = [title, play, atp, settings];
+const HOME = [];
+for (let loop1 in document.getElementsByClassName("home")) {
+    if (isFinite(loop1 * 1)) {
+        HOME.push(document.getElementsByClassName("home")[loop1])
+    }
+}
