@@ -14,3 +14,12 @@ function hideSelectionScreen () {
         LS[loop1].remove();
     }
 }
+
+window.requestAnimationFrame(function () {
+    loop2 = 0;
+    for (loop1 in LS) {
+        LS[loop1].style['left'] = window.innerWidth/4 * (loop2 % 4) + window.innerWidth/40 + "px";
+        LS[loop1].style['top'] = window.innerHeight/4 * (loop2 - (loop2 % 4))/4 + window.innerHeight/40 + "px";
+        loop2++;
+    }
+});

@@ -8,15 +8,23 @@ body {
     background-image : "#";
 }
 
-#title {
-    color : #000ff0;
+.container#home-container .home {
     position : absolute;
 }
 
-button.home {
+.container#home-container .home#title {
+    color : #000ff0;
+}
+
+.container#home-container button.home {
     color : #ff00ff;
     width : 20%;
     height : 7.5%;
     border-radius : 50%;
+}
+
+.container#level-selection-container .level-selection {
     position : absolute;
+    width : 20%;
+    height : 20%;
 }
