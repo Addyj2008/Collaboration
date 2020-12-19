@@ -23,22 +23,40 @@
             </button>
         </div>
         <div id = "level-selection-container" class = "container">
-            <img id = "level1-select" class = "level-selection" src = "Images/level1.jpeg" alt = "Level 1">
-            <img id = "level2-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 2">
-            <img id = "level3-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 3">
-            <img id = "level4-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 4">
-            <img id = "level5-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 5">
-            <img id = "level6-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 6">
-            <img id = "level7-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 7">
-            <img id = "level8-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 8">
-            <img id = "level9-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 9">
-            <img id = "level10-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 10">
-            <img id = "level11-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 11">
-            <img id = "level12-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 12">
-            <img id = "level13-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 13">
-            <img id = "level14-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 14">
-            <img id = "level15-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 15">
-            <img id = "level16-select" class = "level-selection" src = "Images/levelLock.jpeg" alt = "Level 16">
+            <img id = "level1-select" class = "level-selection" src = "Images/level1.png" alt = "Level 1">
+            <img id = "level2-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 2">
+            <img id = "level3-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 3">
+            <img id = "level4-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 4">
+            <img id = "level5-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 5">
+            <img id = "level6-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 6">
+            <img id = "level7-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 7">
+            <img id = "level8-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 8">
+            <img id = "level9-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 9">
+            <img id = "level10-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 10">
+            <img id = "level11-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 11">
+            <img id = "level12-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 12">
+            <img id = "level13-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 13">
+            <img id = "level14-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 14">
+            <img id = "level15-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 15">
+            <img id = "level16-select" class = "level-selection" src = "Images/levelLock.png" alt = "Level 16">
+        </div>
+        <div id = "level-container" class = "container">
+            <canvas id = "level1" class = "level"></canvas>
+            <canvas id = "level2" class = "level"></canvas>
+            <canvas id = "level3" class = "level"></canvas>
+            <canvas id = "level4" class = "level"></canvas>
+            <canvas id = "level5" class = "level"></canvas>
+            <canvas id = "level6" class = "level"></canvas>
+            <canvas id = "level7" class = "level"></canvas>
+            <canvas id = "level8" class = "level"></canvas>
+            <canvas id = "level9" class = "level"></canvas>
+            <canvas id = "level10" class = "level"></canvas>
+            <canvas id = "level11" class = "level"></canvas>
+            <canvas id = "level12" class = "level"></canvas>
+            <canvas id = "level13" class = "level"></canvas>
+            <canvas id = "level14" class = "level"></canvas>
+            <canvas id = "level15" class = "level"></canvas>
+            <canvas id = "level16" class = "level"></canvas>
         </div>
         <div id = "blueprints-container" class = "container">
             
@@ -46,9 +64,11 @@
         <div id = "javascript-container" class = "container">
             <script id = "home-screen" class = "javascript" type = "text/javascript" src = "JS/homeScreen.js"></script>
             <script id = "selection-screen" class = "javascript" type = "text/javascript" src = "JS/selectionScreen.js"></script>
+            <script id = "level-screen" class = "javascript" type = "text/javascript" src = "JS/levelScreen.js"></script>
             <script id = "screen-render" class = "javascript" type = "text/javascript">
                 displayHomeScreen();
                 hideSelectionScreen();
+                hideLevelScreen();
             </script>
         </div>
     </body>
